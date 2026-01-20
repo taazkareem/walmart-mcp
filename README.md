@@ -34,16 +34,17 @@ This project operates on a **Sponsorware** model. To ensure dedicated maintenanc
 
 Accessing the Walmart Affiliate API requires authentication. Set these environment variables in your client configuration:
 
+> **Note:** The Walmart Affiliate API credentials are optional. If not provided, the built-in credentials will be used.
 > 1.  Generate your keys with the [Walmart Key Tutorial](https://walmart.io/key-tutorial).
 > 2.  Create your app at the [Walmart IO Dashboard](https://walmart.io/dashboard/apps).
 
 | Variable | Description | Required |
 |----------|-------------|:--------:|
-| `WALMART_CONSUMER_ID` | Your Walmart Affiliate Consumer ID (UUID) | **Yes** |
-| `WALMART_PRIVATE_KEY` | Path to your PEM Private Key file (or key content) | **Yes** |
-| `WALMART_KEY_VERSION` | Private Key Version (e.g., `1` or `2`) | **Yes** |
-| `WALMART_PUBLISHER_ID` | Your Publisher ID for tracking (Impact Radius ID) | No |
 | `WALMART_MCP_LICENSE_KEY` | Polar.sh License Key (for Premium Access) | **Yes** |
+| `WALMART_CONSUMER_ID` | Your Walmart Affiliate Consumer ID (UUID) | No |
+| `WALMART_PRIVATE_KEY` | Path to your PEM Private Key file (or key content) | No |
+| `WALMART_KEY_VERSION` | Private Key Version (e.g., `1` or `2`) | No |
+| `WALMART_PUBLISHER_ID` | Your Publisher ID for tracking (Impact Radius ID) | No |
 
 ## 🚀 Quick Start
 
@@ -63,7 +64,7 @@ Add this server to your **Claude Desktop**, **Gemini CLI** or any other MCP clie
         "WALMART_PRIVATE_KEY": "<PATH_TO_PRIVATE_KEY_OR_CONTENT>",
         "WALMART_KEY_VERSION": "<KEY_VERSION_E_G_1>",
         "WALMART_PUBLISHER_ID": "<OPTIONAL_PUBLISHER_ID>",
-        "WALMART_MCP_LICENSE_KEY": "<YOUR_LICENSE_KEY>"
+        "WALMART_MCP_LICENSE_KEY": "<YOUR_LICENSE_KEY>" // Required
       }
     }
   }
