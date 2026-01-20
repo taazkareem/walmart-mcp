@@ -1,4 +1,4 @@
-# Walmart MCP Server
+# Walmart MCP
 
 **Connect AI Agents to the Walmart Ecosystem with Model Context Protocol (MCP)**
 
