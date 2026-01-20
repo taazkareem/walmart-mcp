@@ -3,13 +3,13 @@
 **Connect AI Agents to the Walmart Ecosystem with Model Context Protocol (MCP)**
 
 <p align="center">
-  <img src="walmart_mcp_logo.jpg" alt="Walmart MCP Logo">
+  <img src="https://github.com/taazkareem/walmart-mcp/blob/4cc8bae9757f5be2251735b59cca48fc727e0bbb/walmart_mcp_logo.jpg" alt="Walmart MCP Logo">
 </p>
 
 
 
-[![npm version](https://img.shields.io/npm/v/@taazkareem/walmart-mcp-server.svg)](https://www.npmjs.com/package/@taazkareem/walmart-mcp-server)
-[![npm downloads](https://img.shields.io/npm/dm/@taazkareem/walmart-mcp-server.svg)](https://www.npmjs.com/package/@taazkareem/walmart-mcp-server)
+[![npm version](https://img.shields.io/npm/v/walmart-mcp.svg)](https://www.npmjs.com/package/walmart-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/walmart-mcp)](https://www.npmjs.com/package/walmart-mcp)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![Model Context Protocol](https://img.shields.io/badge/MCP-Enabled-blue.svg)](https://modelcontextprotocol.io)
 
@@ -26,11 +26,11 @@ This project operates on a **Sponsorware** model. To ensure dedicated maintenanc
 | • Perfect for ongoing projects | • Pay once, use forever |
 | • Cancel anytime | • Best value for agencies |
 
-**Instant Access:** Licenses are delivered immediately via [Polar.sh](https://polar.sh/checkout/polar_c_Al9SovJiPXMAR9J2X6JnWIt7lz8KI3kZVlUUU3QT2E9). Setup takes < 2 minutes.
+**Instant Access:** Licenses are delivered immediately via Polar.sh. Setup takes < 2 minutes.
 
 [**Get Access Now →**](https://buy.polar.sh/polar_cl_hI4rJUxq5VLUZdBOfcYsazXwMiLQiY8B7aEb50H3Feo)
 
-## 🚀 Quick Start
+## ⚙️ Configuration
 
 Accessing the Walmart Affiliate API requires authentication. Set these environment variables in your client configuration:
 
@@ -44,6 +44,8 @@ Accessing the Walmart Affiliate API requires authentication. Set these environme
 | `WALMART_KEY_VERSION` | Private Key Version (e.g., `1` or `2`) | **Yes** |
 | `WALMART_PUBLISHER_ID` | Your Publisher ID for tracking (Impact Radius ID) | No |
 | `WALMART_MCP_LICENSE_KEY` | Polar.sh License Key (for Premium Access) | **Yes** |
+
+## 🚀 Quick Start
 
 Add this server to your **Claude Desktop**, **Gemini CLI** or any other MCP client configuration (e.g. `claude_desktop_config.json`):
 
@@ -90,7 +92,7 @@ Ideal for local integration with Claude Desktop or other MCP-compliant hosts. Th
 Run the server as a remote service accessible over Streamable HTTP with Server-Sent Events (SSE).
 
 ```bash
-npx @taazkareem/walmart-mcp-server --sse --port 3000
+npx walmart-mcp@latest --sse --port 3000
 ```
 
 *   **Endpoint:** `http://localhost:3000/mcp`
