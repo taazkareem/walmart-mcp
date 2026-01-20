@@ -3,7 +3,7 @@
 **Connect AI Agents to the Walmart Ecosystem with Model Context Protocol (MCP)**
 
 <p align="center">
-  <img src="assets/images/walmart_mcp_logo.jpg" alt="Walmart MCP Logo" width="600">
+  <img src="walmart_mcp_logo.jpg" alt="Walmart MCP Logo" width="600">
 </p>
 
 
