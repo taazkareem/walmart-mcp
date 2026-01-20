@@ -54,7 +54,7 @@ Add this server to your **Claude Desktop**, **Gemini CLI** or any other MCP clie
       "command": "npx",
       "args": [
         "-y",
-        "@taazkareem/walmart-mcp-server"
+        "walmart-mcp@latest"
       ],
       "env": {
         "WALMART_CONSUMER_ID": "<YOUR_CONSUMER_ID>",
