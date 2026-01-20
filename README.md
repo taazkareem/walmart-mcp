@@ -28,7 +28,7 @@ This project operates on a **Sponsorware** model. To ensure dedicated maintenanc
 
 **Instant Access:** Licenses are delivered immediately via [Polar.sh](https://polar.sh/checkout/polar_c_Al9SovJiPXMAR9J2X6JnWIt7lz8KI3kZVlUUU3QT2E9). Setup takes < 2 minutes.
 
-[**Get Access Now →**](https://polar.sh/checkout/polar_c_Al9SovJiPXMAR9J2X6JnWIt7lz8KI3kZVlUUU3QT2E9)
+[**Get Access Now →**](https://buy.polar.sh/polar_cl_hI4rJUxq5VLUZdBOfcYsazXwMiLQiY8B7aEb50H3Feo)
 
 ## 🚀 Quick Start
 
